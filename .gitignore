@@ -1,1 +1,15 @@
 .venv/
+
+# macOS metadata
+.DS_Store
+
+# Model weights
+*.pt
+
+# Training dataset (images, labels, cache)
+detecting_adapter/train/images/
+detecting_adapter/train/labels/
+detecting_adapter/train/labels.cache
+
+# YOLO training run outputs
+runs/
